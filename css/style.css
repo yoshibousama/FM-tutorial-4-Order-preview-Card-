@@ -48,8 +48,4 @@ body {
   background-image: url(/images/image-header-desktop.jpg);
 }
 
-.img__mobile {
-  display: none;
-}
-
 /* ***********************************RESPONSIVE */
