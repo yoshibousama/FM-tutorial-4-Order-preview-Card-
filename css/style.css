@@ -10,7 +10,7 @@
   --stat-headings: hsla(0, 0%, 100%, 0.6);
   --ff-primary: "Inter", sans-serif;
   --ff-secondary: "Lexend Deca", sans-serif;
-  --fs-400: 15px;
+  --fs-400: 0.93rem; /*15px*/
   --fw-400: 400;
   --fw-700: 700;
 }
