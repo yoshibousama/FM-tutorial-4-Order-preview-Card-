@@ -10,8 +10,7 @@
   --stat-headings: hsla(0, 0%, 100%, 0.6);
   --ff-primary: "Inter", sans-serif;
   --ff-secondary: "Lexend Deca", sans-serif;
-  --fs-400: clamp(0.75rem, calc(0.68rem + 0.28vw), 0.94rem); /*15px*/
-  --fs-700: clamp(1.25rem, calc(1.03rem + 0.94vw), 1.88rem);
+  --fs-400: 0.93rem; /*15px*/
   --fw-400: 400;
   --fw-700: 700;
 }
@@ -25,61 +24,5 @@ img {
   max-width: 100%;
 }
 /* ***********************************DESKTOP */
-body {
-  min-height: 100vh;
-  width: min(90%, 1440px);
-  margin-inline: auto;
-  background-color: var(--main-background);
-  font-family: var(--ff-primary);
-  font-weight: var(--fw-400);
-  font-size: var(--fs-400);
-  color: var(--main-heading-stats);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.grid__container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-.grid__item__left {
-  padding: 60px 150px 60px 60px;
-  background-color: var(--card-background);
-}
-.grid__item__left h1 {
-  font-weight: var(--fw-700);
-  margin-bottom: 2rem;
-  font-size: var(--fs-700);
-}
-.grid__item__left span {
-  color: var(--accent);
-}
-.grid__item__left > p {
-  color: var(--main-paragraph);
-  margin-bottom: 4rem;
-  line-height: 1.8;
-}
-p {
-  font-family: var(--ff-secondary);
-}
-.flex__container {
-  text-transform: uppercase;
-}
-.flex__container h2 {
-  font-weight: var(--fw-700);
-  font-size: var(--fs-700);
-}
-.flex__container p {
-  color: var(--stat-headings);
-}
-.flex__container {
-  display: flex;
-  justify-content: space-between;
-}
-.grid__item__right {
-  background-image: url(/images/image-header-desktop.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  filter: opacity(0.2) drop-shadow(0 0 0 var(--accent)) saturate(200%);
-}
+
 /* ***********************************RESPONSIVE */
