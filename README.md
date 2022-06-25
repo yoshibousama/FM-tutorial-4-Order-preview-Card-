@@ -20,3 +20,8 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 - Flexbox
 - Desktop-first workflow
 - Responsive
+
+## Author
+
+- Website - [yoshibousama](https://github.com/yoshibousama)
+- Frontend Mentor - [yoshibousama](https://www.frontendmentor.io/profile/yoshibousama)
