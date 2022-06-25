@@ -78,7 +78,7 @@ body {
   letter-spacing: 1px;
 }
 .card__img {
-  background-image: url(/images/image-header-desktop.jpg);
+  background-image: url(/images/image-header-desktop.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--accent);
@@ -104,7 +104,7 @@ body {
     justify-content: center;
   }
   .card__img {
-    background-image: url(/images/image-header-mobile.jpg);
+    background-image: url(/images/image-header-mobile.png);
     grid-row: 1;
     border-top-left-radius: 0.5rem;
     border-bottom-right-radius: 0;
